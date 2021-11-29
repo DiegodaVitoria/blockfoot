@@ -993,7 +993,7 @@ footer span a:hover {
   @media (max-width: 500px) {
     .home {
 
-      background: url("img/Banner1.png") no-repeat center;
+      background: url("./img/Banner41.png") no-repeat center;
     }
 
     .home .home-content .text-2 {
