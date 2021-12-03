@@ -1,6 +1,14 @@
 :root {
-  --primary    : #ff4e05;
-  --primaryB    : #802c08;
+  --black-2: #1C2437;
+  --black-3: #151B29;
+  --black-4: #353E51;
+  --primary: #FFB800;
+  --border-color: #353E51;
+  --text-color: #FFFFFF;
+  --muted: rgba(255, 255, 255,.48);
+  --green: #6CFFC1;
+  --red: #FF809E;
+  --blac    : #802c08;
   --secundary  : #15307B;
   --branco     : #fff;
   --preto      : #000;
@@ -153,7 +161,7 @@ span,
 
 .home {
   display    : flex;
-  background : url("./img/Banner411.png") no-repeat center;
+  background : url("./img/Banner4111.png") no-repeat center;
   height     : 100vh;
   color      : var(--branco);
   min-height : 500px;
@@ -203,8 +211,8 @@ span,
 }
 
 .home .home-content a:hover {
-  color     : var(--primary);
-  background: var(--primaryB);
+  color     : var(--branco);
+  background: var(--black-4);
 }
 
 
@@ -236,6 +244,9 @@ span,
   background: none;
   opacity   : 90%;
 }
+
+
+
 
 /* ============= section =============*/
 
@@ -376,7 +387,7 @@ section .title::after {
 }
 
 .services .serv-content .card:hover {
-  background: var(--primaryB);
+  background: var(--black-4);
 }
 
 .services .serv-content .card .box {
@@ -436,6 +447,7 @@ section .title::after {
   color     : var(--primary);
   background: none;
 }
+
 
 
 /*============== 4td page skills ==============*/
@@ -865,7 +877,7 @@ footer span a:hover {
 /*============== responsive ==============*/
 @media (max-width: 1800px) {
   .home {
-    background: url("./img/Banner411.png") no-repeat center;
+    background: url("./img/Banner4111.png") no-repeat center;
   }
 
 
