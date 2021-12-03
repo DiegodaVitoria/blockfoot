@@ -14,6 +14,10 @@
   --preto      : #000;
   --preto-claro: #222;
   --cinza      : #365265;
+
+  --small: 15px;
+  --medi:  25px;
+  --larger:35px; 
 }
 
 * {
@@ -100,7 +104,7 @@ span,
 
 .navbar .menu li a {
   color      : var(--branco);
-  font-size  : 18px;
+  font-size  : var(--medi);
   font-weight: 500;
   margin-left: 25px;
   transition : color 0.3s ease;
@@ -109,6 +113,8 @@ span,
 
 .navbar .menu li a:hover {
   color: var(--primary);
+  text-shadow: 1px 1px 2px black;
+  
 }
 
 .navbar.sticky .menu la a:hover {
@@ -734,7 +740,7 @@ section .title::after {
 /*============== CONTATO ==============*/
 
 .contact .title::after {
-  content  : "entre em contato";
+  content  : "Selected list";
   font-size: 18px;
 }
 
@@ -854,6 +860,25 @@ section .title::after {
 .contact .right .social {
   display        : flex;
   justify-content: flex-end;
+}
+/*============== Contract ==============*/
+
+.contact .left .button button {
+  height       : 100%;
+  width        : 100%;
+  border       : 2px solid var(--primary);
+  background   : var(--primary);
+  color        : var(--branco);
+  font-size    : 20px;
+  font-weight  : 500;
+  border-radius: 6px;
+  transition   : all 0.3s ease;
+}
+
+.contact .left .button button:hover {
+  color      : var(--primary);
+  background : none;
+  font-weight: 700;
 }
 
 /*============== Footer ==============*/
